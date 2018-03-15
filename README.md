@@ -4,7 +4,8 @@ Donné le jeudi 15/03/2018, inspiré et adapté d'un [dojo donné à la WCS Pari
 
 ## Programme du jour
 
-* Utiliser la boucle `for..in` abordée lors du cours de lundi
+* Pratiquer encore la boucle `for` "classique".
+* Utiliser la boucle `for..in`, abordée lors de l'intro à JS et aux objets.
 * Utiliser la boucle `for..of`, présentée par ailleurs dans la quête "ES6 Partie 2".
 
 ## Enoncé
@@ -30,7 +31,8 @@ const schools = [
 ]
 ```
 
-**&Agrave; partir de ce tableau d'objets**, on veut, pour chaque objet du tableau, afficher *individuellement* chacune de ses propriétés.
+* **&Agrave; partir de ce tableau d'objets**, on veut, pour chaque objet du tableau, afficher *individuellement* chacune de ses propriétés.
+* **On demande de faire la boucle extérieure** (sur le tableau d'écoles) **de deux façons différentes**.
 
 ## Rappel / doc sur les objets
 
@@ -101,3 +103,7 @@ for(beatle of theBeatles) {
     console.log(beatle)
 }
 ```
+
+## Une solution
+
+https://github.com/bhubr/dojo-for-loops/blob/master/solution/for-loops.js
